@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 /* font-family: 'Zen Dots', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
 @font-face {
   font-family: calcFont;
   src: url(Digital7Mono-B1g5.ttf);
@@ -35,6 +37,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title {
+  padding-bottom: 60px;
+  color: rgb(250, 117, 69);
+  font-size: 28px;
 }
 
 .calculator {
@@ -134,6 +141,22 @@ input {
   color: var(--color);
   border: 1px solid rgba(0, 0, 0, 0.137);
   font-size: 1.5rem;
+}
+
+.developer-info {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 12px;
+}
+.developer-info > h5 > u {
+  font-family: "Montserrat";
+}
+.developer-info > h4 > a {
+  text-decoration: none;
+  font-family: "Montserrat";
 }
 
 .active {
